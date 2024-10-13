@@ -1,0 +1,341 @@
+<resources>
+
+    <string name="app_name">Nicotime-Out!</string>
+
+    <!--    titles-->
+
+    <!--descriptions-->
+
+    <!--buttons-->
+
+    <!--bot_menu_title-->
+    <string name="bot_menu_title1">Rewards</string>
+    <string name="bot_menu_title3">Progress</string>
+    <string name="bot_menu_title4">Timeline</string>
+    <string name="bot_menu_title5">Rehab+</string>
+
+
+    <!--questions activity-->
+    <string name="questions_header">Starting with the Basics</string>
+    <string name="questions_cig_smok_day">Cigarettes Smoked per Day</string>
+    <string name="questions_cig_price_piece">Cigarette Price per Piece</string>
+    <string name="questions_years_smoking">Total Years as a Smoker</string>
+    <string name="questions_sticks"><i>Ex. 20 sticks per day</i></string>
+    <string name="questions_price"><i>Ex. RS:8 per piece</i></string>
+    <string name="questions_years"><i>Ex. 5 years (estimated)</i></string>
+    <string name="questions_done">START MY JOURNEY</string>
+
+    <!--fragment 3-->
+    <string name="MoneySaved">Money Saved</string>
+    <string name="total_MoneySaved">RS:00.00</string>
+    <string name="total_MoneyLost">RS:00.00</string>
+    <string name="LifeRegained">Life Regained</string>
+    <string name="total_CigarettesAvoided">0</string>
+    <string name="CigarettesAvoided">Cigarettes Avoided</string>
+    <string name="PesoCurrency">Peso Currency</string>
+    <string name="Clock">Clock</string>
+    <string name="third_CigarettesSmoked">Cigarettes Smoked</string>
+    <string name="third_MoneyWasted">Money Wasted</string>
+    <string name="third_LifeLost">Life Lost</string>
+
+    <string name="lifeRegained_days">%1$sd</string>
+    <string name="lifeRegained_hours">%1$sh</string>
+    <string name="lifeRegained_minutes">%1$sm</string>
+
+    <string name="lifeLost_days">%1$sd</string>
+    <string name="lifeLost_hours">%1$sh</string>
+    <string name="lifeLost_minutes">%1$sm</string>
+    <string name="medi_remind">MEDICATIONREMINDER</string>
+
+
+    <string-array name="quotes">
+        <item>“Believe you can, and you’re halfway there.”</item>
+        <item>“I avoid looking forward or backward, and try to keep looking upward.”</item>
+        <item>“I hated every minute of training, but I said, ‘Don’t quit. Suffer now and live the rest of your life as a champion.”</item>
+        <item>“Our greatest glory is not in never failing, but in rising up every time we fail.”</item>
+        <item>“Every worthy act is difficult. Ascent is always difficult. Descent is easy and often slippery.”</item>
+        <item>“It is by going down into the abyss that we recover the treasures of life. Where you stumble, there lies your treasure.”</item>
+        <item>“The great thing in this world is not so much where you stand, as what direction you are moving.”</item>
+        <item>“I’ve been absolutely terrified every moment of my life – and I’ve never let it keep me from doing a single thing I wanted to do.”</item>
+        <item>“If you accept the expectations of others, especially negative ones, then you never will change the outcome.”</item>
+        <item>“People often say that motivation doesn’t last. Neither does bathing. That’s why we recommend it daily.”</item>
+        <item>“Success is the sum of small efforts, repeated day in and day out.”</item>
+        <item>“Tomorrow is the most important thing in life; it comes to us at midnight very clean. It’s perfect when it arrives, and it puts itself in our hands. It hopes we’ve learned something from yesterday.”</item>
+        <item>“If you can quit for a day, you can quit for a lifetime.”</item>
+        <item>“Fall seven times, stand up eight.”</item>
+        <item>“Either you run the day, or the day runs you.”</item>
+        <item>“Every strike brings me closer to the next home run.”</item>
+        <item>“Life is like riding a bicycle. To keep your balance, you must keep moving.”</item>
+        <item>“When you rise in the morning, think of what a privilege it is to be alive, to think, to enjoy, to love …” </item>
+        <item>“Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending.”</item>
+        <item>“Everyone has inside of him a piece of good news. The good news is that you don’t know how great you can be! How much you can love! What you can accomplish! And what your potential is!”</item>
+        <item>“What progress, you ask, have I made? I have begun to be a friend to myself.”</item>
+        <item>“Find the seed at the bottom of your heart and bring forth a flower.”</item>
+        <item>“What makes the desert beautiful is that somewhere it hides a well.”</item>
+        <item>“All the suffering, stress, and addiction comes from not realizing you already are what you are looking for.”</item>
+        <item>“People spend a lifetime searching for happiness; looking for peace. They chase idle dreams, addictions, religions, even other people, hoping to fill the emptiness that plagues them. The irony is the only place they ever needed to search was within.”</item>
+        <item>“The most common way people give up their power is by thinking they don’t have any.”</item>
+        <item>“Be yourself; everyone else is already taken.”</item>
+        <item>“It always seems impossible until it’s done.”</item>
+        <item>“In the midst of winter, I found there was, within me, an invincible summer. And that makes me happy. For it says that no matter how hard the world pushes against me, within me, there’s something stronger — something better, pushing right back.”</item>
+        <item>“Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved.”</item>
+        <item>“We may think there is willpower involved, but more likely … change is due to want power. Wanting the new addiction more than the old one. Wanting the new me in preference to the person I am now.”</item>
+        <item>“Man never made any material as resilient as the human spirit.”</item>
+        <item>“You can come out of the furnace of trouble two ways: if you let it consume you, you come out a cinder; but there is a kind of metal which refuses to be consumed, and comes out a star.”</item>
+        <item>“I have learned over the years that when one’s mind is made up, this diminishes fear.”</item>
+        <item>“Hardships often prepare ordinary people for an extraordinary destiny.”</item>
+        <item>“Sometimes we motivate ourselves by thinking of what we want to become. Sometimes we motivate ourselves by thinking about who we don’t ever want to be again.”</item>
+        <item>“When we meet real tragedy in life, we can react in two ways – either by losing hope and falling into self-destructive habits, or by using the challenge to find our inner strength. Thanks to the teachings of Buddha, I have been able to take this second way.”</item>
+        <item>“Cause sometimes you just feel tired. Feel weak, and when you feel weak, you feel like you want to just give up. But you gotta search within you. You gotta find that inner strength. And just pull it out of you, and get that motivation to not give up, and not be a quitter, no matter how bad you want to just fall flat on your face.”</item>
+        <item>“Life is not easy for any of us. But what of that? We must have perseverance and, above all, confidence in ourselves. We must believe that we are gifted for
+something, and that this thing, at whatever cost, must be attained.”</item>
+        <item>“Life has many ways of testing a person’s will, either by having nothing happen at all or by having everything happen all at once.”</item>
+        <item>“Today you are You, that is truer than true. There is no one alive who is Youer than You.”</item>
+        <item>“Nothing is impossible; the word itself says, ‘I’m possible!”</item>
+        <item>“What lies behind us and what lies before us are tiny matters compared to what lies within us.”</item>
+        <item>“I can’t change the direction of the wind, but I can adjust my sails to always reach my destination.”</item>
+        <item>“I dwell in possibility.”</item>
+        <item>“Don’t let the past steal your present.”</item>
+        <item>“Addiction begins with the hope that something “out there” can instantly fill up the emptiness inside.”</item>
+        <item>“Hope is a good thing, maybe even the best of things, and good things never die.”</item>
+        <item>“The only journey is the one within.”</item>
+        <item>“Every experience in your life is being orchestrated to teach you something you need to know to move forward.”</item>
+        <item>“Not feeling is no replacement for reality. Your problems today are still your problems tomorrow.”</item>
+        <item>“What is an addiction, really? It is a sign, a signal, a symptom of distress. It is a language that tells us about a plight that must be understood.”</item>
+        <item>“The greatest mistake you can make in life is to continually be afraid you will make one.”</item>
+        <item>“Turn your face to the sun and the shadows fall behind you.”</item>
+        <item>“You must do the things you think you cannot do.”</item>
+        <item>“The best idea and the best expression of it amount to nothing without action to back them up.”</item>
+        <item>“Recovery is hard. Regret is harder.”</item>
+        <item>“One small step is worth more than a thousand steps planned.”</item>
+        <item>“Great acts are made up of small deeds.”</item>
+        <item>“Courage isn’t having the strength to go on – it is going on when you don’t have strength.”</item>
+        <item>“Take time to deliberate; but when the time for action arrives, stop thinking and go in.”</item>
+        <item>“A man would do nothing if he waited until he could do it so well that no one could find fault.”</item>
+        <item>“He conquers who endures.”</item>
+        <item>“People become attached to their burdens sometimes more than the burdens are attached to them.”</item>
+        <item>“Experience is not what happens to you, it is what you do with what happens to you.”</item>
+        <item>“My life has been full of terrible misfortunes most of which never happened.”</item>
+        <item>“Even in the midst of devastation, something within us always points the way to freedom.”</item>
+
+    </string-array>
+
+    <string-array name="authors">
+        <item>Theodore Roosevelt</item>
+        <item>Charlotte Brontë</item>
+        <item>Muhammad Ali</item>
+        <item>Ralph Waldo Emerson</item>
+        <item>Mahatma Gandhi</item>
+        <item>Joseph Campbell</item>
+        <item>Oliver Wendell Holmes</item>
+        <item>Georgia O’Keeffe</item>
+        <item>Michael Jordan</item>
+        <item>Zig Ziglar</item>
+        <item>Robert Collier</item>
+        <item>John Wayne</item>
+        <item>Benjamin Alire Sáenz</item>
+        <item>Japanese proverb</item>
+        <item>Jim Rohn</item>
+        <item>Babe Ruth</item>
+        <item>Albert Einstein</item>
+        <item>Marcus Aurelius</item>
+        <item>Carl Bard</item>
+        <item>Anne Frank</item>
+        <item>Hecato</item>
+        <item>Shigenori Kameoka</item>
+        <item>Antoine de Saint-Exupery</item>
+        <item>Jon Kabat-Zinn</item>
+        <item>Ramona L. Anderson</item>
+        <item>Alice Walker</item>
+        <item>Oscar Wild</item>
+        <item>Nelson Mandela</item>
+        <item>Albert Camus</item>
+        <item>Helen Keller</item>
+        <item>George Sheehan</item>
+        <item>Bernard Williams</item>
+        <item>Jean Church</item>
+        <item>Rosa Parks</item>
+        <item>C.S. Lewis</item>
+        <item>Shane Niemeyer</item>
+        <item>Dalai Lama</item>
+        <item>Eminem</item>
+        <item>Marie Curie</item>
+        <item>Paulo Coelho</item>
+        <item>Dr. Seuss</item>
+        <item>Audrey Hepburn</item>
+        <item>Ralph Waldo Emerson</item>
+        <item>Jimmy Dean</item>
+        <item>Emily Dickinson</item>
+        <item>Terri Guillemets</item>
+        <item>Jean Kilbourne</item>
+        <item>Stephen King</item>
+        <item>Rainer Maria Rilke</item>
+        <item>Brian Tracy</item>
+        <item>Larry Michael Dredla</item>
+        <item>Alice Miller</item>
+        <item>Elbert Hubbard</item>
+        <item>Charlotte Whitton</item>
+        <item>Eleanor Roosevelt</item>
+        <item>Unknown</item>
+        <item>Brittany Burgunder</item>
+        <item>Unknown</item>
+        <item>Lao Tzu</item>
+        <item>Napoléon Bonaparte</item>
+        <item>Napoléon Bonaparte</item>
+        <item>John Henry Newman</item>
+        <item>Persius</item>
+        <item>George Bernard Shaw</item>
+        <item>Aldous Huxley</item>
+        <item>Michel de Montaigne</item>
+        <item>Sharon Salzberg</item>
+
+    </string-array>
+
+    <string name="fifth_fragment_intro_1">Wishing for recovery isn’t enough. No matter how good your intentions are, they amount to nothing if you fail to take the necessary steps to make them happen. Take a great step by accepting help from an <b>addiction treatment program.</b></string>
+    <string name="fifth_fragment_intro_2">Even at your lowest point of discouragement, you can still find the strength to overcome substance abuse as long as you take actionable steps to achieve this goal.</string>
+    <string name="fifth_fragment_intro_3">You have to trust that full recovery is possible for you. With the right mindset, you can overcome the worst of addiction.</string>
+
+    //achievements
+    <string name="ac_blastoff">Blast Off!</string>
+    <string name="ac_thumbsup">Thumbs Up to Savings</string>
+    <string name="ac_richman">Rich Man</string>
+    <string name="ac_knowledgeispower">Knowledge is Power</string>
+    <string name="ac_inquisitivemind">Inquisitive Mind</string>
+    <string name="ac_30days">30 Days of Success!</string>
+    <string name="ac_focused">Focused</string>
+    <string name="ac_standtall">Stand Tall</string>
+    <string name="daily_diary_plans">Daily Diary Plans</string>
+    <string name="daily_water_intake">Daily Water Intake</string>
+
+
+    //100 cigarettes
+    <string name="ac_100cigarettesavoided">Sturdy as a Shield</string>
+    <string name="ac_liferegained_1day">Recovery Medal</string>
+    <string name="ac_liferegained_1week">Recovery Champion</string>
+    <string name="ac_explorer">Born to Explore</string>
+
+    <string name="ac_blastoff_desc">Your journey starts here, Champ!</string>
+    <string name="ac_thumbsup_desc">Save a Total of RS:500.00</string>
+    <string name="ac_richman_desc">Save a Total of RS:1000.00</string>
+    <string name="ac_knowledgeispower_desc">Complete Watching Your First Infographic Video</string>
+    <string name="ac_inquisitivemind_desc">Complete Watching All the Infographic Videos</string>
+    <string name="ac_30days_desc">Login for a Total of 30 Days</string>
+    <string name="ac_focused_desc">Login for a Total of 3 Days</string>
+    <string name="ac_standtall_desc">1000 Total Cigarettes Avoided</string>
+    <string name="ac_100cigarettesavoided_desc">100 Total Cigarettes Avoided</string>
+    <string name="ac_liferegained_1day_desc">1 Day Total Life Regained</string>
+    <string name="ac_liferegained_1week_desc">1 Week Total Life Regained</string>
+    <string name="ac_explorer_desc">Explore the Rehabilitation Center Tab</string>
+
+    <!--timeline-->
+    <string name="quit_smoking_timeline">Quit Smoking Timeline</string>
+    <string name="timeline_20minutes">20 minutes after your last cigarette</string>
+    <string name="timeline_8hours">8 hours after your last cigarette</string>
+    <string name="timeline_24hours">24 hours after your last cigarette</string>
+    <string name="timeline_48hours">48 hours after your last cigarette</string>
+    <string name="timeline_72hours">72 hours after your last cigarette</string>
+    <string name="timeline_1week">One week after your last cigarette</string>
+    <string name="timeline_2weeks">Two weeks after your last cigarette</string>
+    <string name="timeline_3weeks">Three weeks after your last cigarette</string>
+    <string name="timeline_1month">One month after your last cigarette</string>
+    <string name="timeline_3months">Three months after your last cigarette</string>
+    <string name="timeline_6months">Six months after your last cigarette</string>
+    <string name="timeline_1year">One year after your last cigarette</string>
+    <string name="timeline_desc_20minutes">Your blood pressure and pulse will start to return to more normal levels.</string>
+    <string name="timeline_desc_8hours">Your carbon monoxide levels will return to a more normal level, increasing the body’s oxygen levels.</string>
+    <string name="timeline_desc_24hours">The risk of heart attack begins to decrease. Nicotine levels in your bloodstream have also decreased to negligible amounts at this time.</string>
+    <string name="timeline_desc_48hours">You may notice heightened sense of smell and more vivid tastes as your damaged nerves heal.</string>
+    <string name="timeline_desc_72hours_1">The nicotine levels in a person’s body are depleted, this initial depletion can cause nicotine withdrawal.</string>
+    <string name="timeline_desc_72hours_2">Around 3 days after quitting, most people will experience moodiness and irritability, severe headaches, and cravings as the body readjusts.</string>
+    <string name="timeline_desc_1week">You will notice a reduction in the number of daily nicotine cravings experienced.</string>
+    <string name="timeline_desc_2weeks">You may start to notice you’re not only breathing easier. You’re also walking easier. This is thanks to improved circulation and oxygenation.</string>
+    <string name="timeline_desc_3weeks">Your circulation starts to improve. You may notice that physical activity becomes a lot easier. You’ll be free of the addiction and any psychological effects of withdrawal should have ended.</string>
+    <string name="timeline_desc_1year_1">After one year of quitting smoking, your lungs will have experienced dramatic health improvements in terms of capacity and functioning. You’ll notice how much easier you breathe when you’re exerting yourself and how much less coughing you have compared to when you smoked.</string>
+    <string name="timeline_desc_1year_2">In addition to these health benefits, you’ll have saved a dramatic amount of money. Smoking cigarettes is expensive. If you smoked a pack of cigarettes per day, you’ll have saved thousands of pesos at the one-year mark.</string>
+    <string name="timeline_desc_6months">You are now better in handling stressful events without feeling like you need to smoke. You may also notice you’re coughing up much less mucus and phlegm.</string>
+    <string name="timeline_desc_3months">Within one to three months of quitting, your blood circulation will improve considerably. Women may also begin to experience improvements in fertility.</string>
+    <string name="timeline_desc_1month">You can experience a sense of heightened overall energy, decreased smoking-related symptoms, and fibers in the lungs that help keep the lungs healthy are growing back.</string>
+
+
+    <string name="rehab_link">https://www.ddb.gov.ph/legal-services/treatment-and-rehabilitation/46-sidebar/65-doh-accredited-rehabilitation-centers#r10-2</string>
+    <string name="quit_smoking">QUIT CIGARETTES ADDICTION</string>
+    <string name="Runner_tracker">RUNNER TRACKER</string>
+
+
+    <string-array name="rv_title">
+        <item>Cigarette</item>
+        <item>Cigarette Smoking</item>
+        <item>Health Effects</item>
+        <item>Addiction</item>
+    </string-array>
+
+    <string-array name="rv_subTitle">
+        <item>What is Cigarette?</item>
+        <item>What is Cigarette Smoking?</item>
+        <item>Effects of Cigarette Smoking in Our Body</item>
+        <item>What is Cigarette Addiction?</item>
+        <item>Quit Smoking Guide</item>
+    </string-array>
+
+    <string-array name="rv_body1">
+        <item>A cigarette is described as a thinly wrapped roll of processed tobacco leaves and leaf stems. When on end is lit, the smoke is inhaled orally through cigarette filter or cigarette butt. It emits more than 7,000 chemicals and approximately 600 carcinogens, which are harmful and can cause cancer.</item>
+
+
+        <item>We’ve all heard how horrible smoking is for health and how hazardous and poisonous it is. Warnings are commonly included in the cigarette pack. Still, cigarette smoking has been a global concern with regard to smoke-related illnesses and mortality.</item>
+
+
+        <item>Dealing with the uncontrollable habit of cigarette smoking is known dangerous; smokers are exposed to approximately 7,000 toxins identified in which 69 of them can cause cancer and at least 250 can harm health. Stopping smoking, which reduces one’s life by 11 minutes, is likely the single most essential step smokers can make to improve their health.</item>
+
+
+        <item>Nicotine, a substance contained in tobacco plants, is what makes cigarettes addicting. The addiction is both physical and mental, in that frequent users develop a craving for the substance, and users actively seek nicotine’s effects.</item>
+
+        <item>Cigarette smoking addiction is a physical and psychological habit. Nicotine withdrawal symptoms and cravings might occur when you stop using it. The “feel good impact on the brain” can be used to cope with melancholy, anxiety, and boredom. When the body experiences nicotine withdrawal, the individual is likely to feel a variety of physical symptoms, including cigarette cravings, irritation, annoyance, anxiety, and so on.</item>
+    </string-array>
+
+    <string-array name="rv_body2">
+        <item>Such as Benzene, which are present in insecticides and gasoline; Formaldehyde, a chemical used to preserve human corpses; and Vinyl Chloride, which is used to produce plastics. This even contains hazardous heavy metals and toxins that are dangerous when absorbed and can lead to serious harm.</item>
+
+
+        <item>Cigarette smoke contains carcinogenic substances that could affect yet almost every organ in the body. Toxic chemicals enter the lungs within the first puff, reaching brain, which releases a neurotransmitter called dopamine, going to heart, and other organs.</item>
+
+
+        <item>The chemicals in cigarettes have an effect on smokers’ looks, generating yellow-brown stains on their fingers, tongue, and teeth, as well as increasing chance of tooth loss and bad breath, and making their skin wrinkled. Cigarette smoking is linked to cancer, heart disease, lung disease, diabetes, chronic obstructive pulmonary disease, emphysema and chronic bronchitis. It can increase the risk of tuberculosis, eye diseases, and weakened immune system.</item>
+
+
+        <item>The addiction is behavioral, causing people to grow reliant on the activities associated with tobacco use. They acquire habituated to smoking after meals or when they are under stress.</item>
+
+        <item>To successfully stop, the person must address both the addiction and the habits that go along with it Nicotine Replacement Therapy (NRT) may be a smoker’s first option since it might help with tough withdrawal symptoms and cravings. NRT is available in five different forms; patch, gum, nasal spray, inhalers, and lozenges. When deciding on the finest NRT, the user must consider and talk with a healthcare expert to determine which approach will be most beneficial. NRT’s must be taken for a short length of time, and using them for a long time can lead to nicotine dependency.</item>
+    </string-array>
+
+    <string-array name="rv_body3">
+        <item>Such as; Arsenic, a rat poisoning compound, and Cadmium, commonly found in batteries; Carbon monoxide, a gas produced by automobile exhaust; hydrogen cyanide, a poison used to execute people in gas chambers; and Nicotine, a toxin found in insecticides and the addictive element in cigarettes.</item>
+
+
+        <item>Secondhand smoke, on the other hand, is define smoke inhaled without intent. Secondhand smoke is inhaled through side stream or mainstream smoke. Tobacco products such as cigarettes, emit side stream smoke when they were burned.</item>
+
+
+        <item>It can also impair a woman’s reproductive system, making it harder to conceive, as well as the pregnancy and fetal development. In males, it can increase the risk of erectile dysfunction and lower the quality of sperm, reducing fertility.</item>
+
+
+        <item>When a person’s body is exposed to nicotine, the person feels a “kick”, which is generated by nicotine activating the adrenal glands, causing the production of adrenaline and dopamine, which provides temporary pleasure and motivation in the brain.</item>
+
+        <item>The Cold Turkey approach is the alternative option. This strategy involves quitting smoking completely without the use of medicine or nicotine replacement therapy. The most essential method to deal with negative sensations is to nurture oneself by eating healthy meals, and drinking enough water.  With the correct help and quitting strategy, any smoker may be free from addiction.</item>
+    </string-array>
+
+    <string-array name="rv_body4">
+        <item>These hazardous compounds pass through our bloodstream, heart, brain, and other organs is the primary reason why cigarette smoking is linked to certain diseases. </item>
+
+
+        <item>A smoker in the vicinity exhales mainstream smoke. Nonsmokers are affected to both sources, because they release toxic chemicals into the air.</item>
+
+
+        <item>Such issues could also cause by secondhand smoking in adults. Children who are exposed to secondhand smoke are at risk of respiratory infection symptoms, middle ear diseases, severe asthma, and slowed lung growth. These harmful effects could lead to life-threatening conditions and early death.</item>
+
+
+        <item>When people use heroin or cocaine, the same thing happens. You need more nicotine to feel good the more you smoke. Attempting to quit causes painful emotional and physical effects.</item>
+
+        <item>It’s also crucial to realize that no one can force a friend or loved one to quit smoking; they must take their own decision. If they do decide to stop, provide support, encouragement, and attempt to make the process less stressful.</item>
+    </string-array>
+
+
+</resources>

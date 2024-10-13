@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".common.Home">
+
+    <!-- First background imageView, positioned as before -->
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="556dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/solid_circle_background_2" />
+
+    <!-- Second background imageView, positioned as before -->
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="556dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/solid_circle_background" />
+
+    <!-- Welcome text -->
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Welcome"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Username TextView -->
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <!-- Small ImageView at the top-right corner -->
+
+
+    <!-- ScrollView to wrap the 5 buttons with images -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/imageView12"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- First Button with an Image -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dailyDiaryButton"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/home_button"
+                android:text="@string/daily_diary_plans"
+                android:textSize="18sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
+                android:id="@+id/dailyDiaryImage"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:src="@drawable/plate_food"
+                app:layout_constraintStart_toStartOf="@+id/dailyDiaryButton"
+                app:layout_constraintTop_toTopOf="@+id/dailyDiaryButton"
+                app:layout_constraintBottom_toBottomOf="@+id/dailyDiaryButton" />
+
+            <!-- Second Button with an Image -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/waterIntakeButton"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/home_button"
+                android:text="@string/daily_water_intake"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/dailyDiaryButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
+                android:id="@+id/waterIntakeImage"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:src="@drawable/water_drop"
+                app:layout_constraintStart_toStartOf="@+id/waterIntakeButton"
+                app:layout_constraintTop_toTopOf="@+id/waterIntakeButton"
+                app:layout_constraintBottom_toBottomOf="@+id/waterIntakeButton" />
+
+            <!-- Third Button with an Image -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/nicotineOutButton"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/home_button"
+                android:text="@string/quit_smoking"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/waterIntakeButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
+                android:id="@+id/nicotineOutImage"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:src="@drawable/nico_out"
+                app:layout_constraintStart_toStartOf="@+id/nicotineOutButton"
+                app:layout_constraintTop_toTopOf="@+id/nicotineOutButton"
+                app:layout_constraintBottom_toBottomOf="@+id/nicotineOutButton" />
+
+            <!-- Fourth Button with an Image -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/RunnerTrackerButton"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/home_button"
+                android:text="@string/Runner_tracker"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/nicotineOutButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
+                android:id="@+id/runnerTrackerImage"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:src="@drawable/runner_tracker"
+                app:layout_constraintStart_toStartOf="@+id/RunnerTrackerButton"
+                app:layout_constraintTop_toTopOf="@+id/RunnerTrackerButton"
+                app:layout_constraintBottom_toBottomOf="@+id/RunnerTrackerButton" />
+
+            <!-- Fifth Button with an Image -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/MedicationRemindButton"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/home_button"
+                android:text="@string/medi_remind"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@id/RunnerTrackerButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
+                android:id="@+id/mediRemindImage"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:src="@drawable/medi_remind"
+                app:layout_constraintStart_toStartOf="@+id/MedicationRemindButton"
+                app:layout_constraintTop_toTopOf="@+id/MedicationRemindButton"
+                app:layout_constraintBottom_toBottomOf="@+id/MedicationRemindButton" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
